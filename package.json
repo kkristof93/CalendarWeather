@@ -1,0 +1,24 @@
+{
+  "name": "calendar-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristóf Koncz",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.0",
+    "ical-generator": "^0.2.9",
+    "icalendar": "^0.7.1",
+    "lodash": "^4.17.4",
+    "request": "^2.80.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
